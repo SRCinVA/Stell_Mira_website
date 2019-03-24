@@ -30,7 +30,9 @@
     <div class = "container">
         <section id="section1" class="section clear"> <!--this breaks the floats so that the content afterwards sits in its own space in the default left.-->
                 <div class="wrap">
-
+                    <video width="400" controls autoplay>
+                        <source src="cat.mov" type="video/mp4">
+                    </video>
                     <p><button></button> Surfside</p>
                     <p><button></button> Broken</p>
                     <p><button></button> Let Me Hold You</p>
@@ -152,7 +154,7 @@
     
     <script>
         $(function() {
-            $("#picture").hide(2000).show(2000).hide(2000).fadeIn(2000).fadeOut(1000);
+            $("#picture").hide(2000).show(2000).hide(2000).fadeIn(2000).fadeOut(1000).fadeIn(2000);
         });
 
     </script>
